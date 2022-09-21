@@ -1,0 +1,54 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vw;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cabecalho{
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+     
+}
+.img{
+
+   width: 100px;
+   padding: 10px 10px 10px 10px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.cardsegunda{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 126px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.button{
+    position: absolute;
+    left: 1150px;
+    top: 20px;
+}
+
+.imagem{
+
+width: 100vw;
+height: 20vw;
+
+}
